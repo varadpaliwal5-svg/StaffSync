@@ -1,0 +1,14 @@
+{
+  "name": "staffsync",
+  "version": "1.0.0",
+  "description": "StaffSync — Human Resource Management System (HRMS) MERN College Project",
+  "scripts": {
+    "start:server": "cd server && npm start",
+    "start:client": "cd client && npm run dev",
+    "seed": "cd server && npm run seed",
+    "test:api": "cd server && node test_api.js"
+  },
+  "keywords": ["staffsync", "hrm", "mern", "react", "express", "mongodb"],
+  "author": "StaffSync Team",
+  "license": "ISC"
+}
